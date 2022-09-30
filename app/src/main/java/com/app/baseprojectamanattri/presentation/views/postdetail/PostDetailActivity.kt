@@ -29,7 +29,9 @@ class PostDetailActivity : BaseActivity<PostDetailActivityBinding>() {
         super.onCreate(savedInstanceState)
         setContentView(PostDetailActivityBinding.inflate(layoutInflater))
         var postModel = intent.getParcelableExtra<PostModel>(EXTRAS_POST_MODEL)
-        setViews(postModel)
+        if (postModel != null) {
+            setViews(postModel)
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
