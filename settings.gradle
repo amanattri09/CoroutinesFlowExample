@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "AndroidArchitectureDemo"
+rootProject.name = "CoroutineFlowExample"
