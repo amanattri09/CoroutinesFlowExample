@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Intent
 import dagger.hilt.android.HiltAndroidApp
 
+/*test comment */
 @HiltAndroidApp
 class MyApplication :Application(){
 
